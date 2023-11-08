@@ -41,5 +41,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ghcr.io/efrecon/tplink-WA860RE
+          tags: ghcr.io/efrecon/tplink-wa860re
           platforms: linux/amd64,linux/arm64,linux/ppc64le
